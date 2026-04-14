@@ -1,7 +1,6 @@
-/* OVERALL PAGE FORMATTING */ 
 body {
-    color: #000000;
-    background-color: #FFFFFF;
+    background-color: #ffffff;   
+    color: #222222;              
     font: 12pt Georgia, "Times New Roman", Times, serif;
     border: thick solid #000000;
     margin: 15px;
@@ -16,6 +15,7 @@ p {
 /* Headings */
 h1, h2, h3 {
     padding-bottom: 0.5em;
+    color: #cc2e72; 
 }
 
 /* Lists */
@@ -26,17 +26,18 @@ ul, ol {
 
 /* Links */
 a:link {
-    color: #084048;
+    color: #cc2e72; 
 }
 
 a:visited {
-    color: #10A7A5;
-}
+    color: #a81f5c; 
 
 a:hover {
-    color: #CC6600;
+    color: #a81f5c; 
+    text-decoration: underline;
 }
-/* Definition Lists */
+
+
 dt {
     font-size: 1.1em;
     font-weight: bold;
@@ -48,6 +49,7 @@ dd {
     margin-left: 50px;
     padding-bottom: 1em;
 }
+
 /* HEADER */
 header {
     height: 99px;
@@ -58,11 +60,13 @@ header {
     background-image: url("../images/przlogo.gif");
     background-repeat: no-repeat;
     background-position: top left;
+    background-color: #f2f2f2; 
 }
 
 /* Header Headings */
 header h1, header h2 {
     font-family: Garamond, serif;
+    color: #cc2e72; 
 }
 
 header h1 {
@@ -75,11 +79,13 @@ header h2 {
     font-style: italic;
     text-align: center;
 }
+
 /* NAVIGATION */
 nav {
     font-family: "Gill Sans", Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     padding: 10px 20px;
+    background-color: #f2f2f2; 
 }
 
 nav ol {
@@ -97,6 +103,7 @@ nav li {
 nav li:last-child {
     border-right: none;
 }
+
 /* MAIN SECTION */
 main {
     padding: 20px;
@@ -121,7 +128,7 @@ main h3 {
     font-family: "Gill Sans", Arial, Helvetica, sans-serif;
 }
 
-/* Bigger list items for Attorneys + Legal Links */
+
 ul.bigger li {
     font-size: 1.2em;
     padding: 0.5em 0;
@@ -136,9 +143,10 @@ main ol {
 main ol ol {
     list-style-type: lower-alpha;
 }
+
 /* FOOTER */
 footer {
-    background-color: #A1D1D1;
+    background-color: #f2f2f2; 
     padding: 15px;
     text-align: center;
 }
@@ -147,5 +155,5 @@ footer p {
     font-size: 0.8em;
     font-weight: bold;
     line-height: 1.8em;
+    color: #cc2e72; 
 }
-
