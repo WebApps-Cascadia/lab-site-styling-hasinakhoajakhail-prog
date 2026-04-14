@@ -26,17 +26,17 @@ ul, ol {
 
 /* Links */
 a:link {
-    color: #cc2e72; 
+    color: #cc2e72;
 }
 
 a:visited {
-    color: #a81f5c; 
-
-a:hover {
-    color: #a81f5c; 
-    text-decoration: underline;
+    color: #a81f5c;
 }
 
+a:hover {
+    color: #a81f5c;
+    text-decoration: underline;
+}
 
 dt {
     font-size: 1.1em;
